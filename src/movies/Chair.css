@@ -1,0 +1,22 @@
+.chair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: green;
+}
+
+.chair:hover {
+  background-color: black;
+  color: white;
+}
+
+.chair.booked {
+  background-color: red;
+  color: white;
+}
+
+.chair.booking {
+  background-color: yellow;
+}
